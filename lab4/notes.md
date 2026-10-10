@@ -5,5 +5,11 @@ question3-->git is offering to track only two files
 name 'lab4/' and 'week-02/' .In the list there is not something which i have not written .
 question4--> Comparing the two git status outputs, no 
 unwanted temporary files or .venv contents were added to tracking, and .gitignore successfully prevents them from appearing.
-question5-->
+question5--> .gitignore file should be commited.It ensures that all the other tea mmembers use the same rules to ignore temporary files across the different computers 
+question6--> When git add is run, the file moves from "Untracked files" to "Changes to be committed". In the three-places model, it moves from the Working Directory to the Staging Area.
+question7--> After the commit, Git printed [master (root-commit) 05284d5] Lab work so far and reported that 7 files were changed with 108 insertions.
+
+question8--> The first seven characters (like 05284d5) are called the short commit hash or SHA-1 ID. They serve as a unique identifier for that commit.
+
+
          

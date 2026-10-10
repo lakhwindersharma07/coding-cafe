@@ -32,4 +32,18 @@ question9--> The four steps of the Git loop are :
             4)Commit changes using git commit _m "message"
 question10-->question10--> README.md gets a special name and location because code hosting platforms like GitHub automatically render it on the repository's front page as the main documentation. Placing it in the root directory ensures visitors and team members immediately see an overview of the project when they open the repository
 
-question 11 hellox
+question11--> `gh auth login` authenticated my GitHub account and saved 
+a secure authentication token locally in Git's credential manager. This 
+allows Git to automatically send my credentials on future pushes without
+ prompting for a password.
+
+question 12-->question12--> The content of `README.md` is displayed on the front page of the repository. GitHub automatically detects `README.md` in the 
+root directory and renders it as the main homepage documentation for visitors.
+
+question 13-->question13--> No, pushing did not change my local commit history. `git push` only uploads local commits to the remote repository on GitHub,
+ leaving the local commit history and hashes identical to before.
+
+
+question 14-->question14--> A private repository exists on GitHub's servers but restricts access so that only authorized users (like owners and added col
+laborators/TAs) can view or modify it. On the other hand, if a repository does not exist, no code or history is stored on GitHub at all, and no one can a
+ccess it.
